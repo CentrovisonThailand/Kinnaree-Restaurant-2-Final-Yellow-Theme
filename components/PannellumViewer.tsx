@@ -58,6 +58,14 @@ export default function PannellumViewer() {
           className="h-12 opacity-90 hover:opacity-100 transition-opacity"
         />
       </div>
+
+      {/* Branding Name */}
+      <div className="absolute bottom-8 left-8 z-10 text-white">
+        <h1 className="text-2xl font-bold tracking-wider">
+          <span className="text-cyan-400">Cen</span>
+          <span className="text-white">IVP</span>
+        </h1>
+      </div>
     </div>
   );
 }
