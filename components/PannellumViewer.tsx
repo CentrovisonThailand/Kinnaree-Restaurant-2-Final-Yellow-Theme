@@ -26,7 +26,7 @@ export default function PannellumViewer() {
     script.onload = () => {
       window.pannellum.viewer('panorama-container', {
         type: 'equirectangular',
-        panorama: '/image/Executive Twin Final.jpg',
+        panorama: '/image/Kinnaree Restaurant 2 Final Yellow Theme.jpg',
         autoLoad: true,
         autoRotate: -2,
       });
